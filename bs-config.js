@@ -16,11 +16,11 @@ module.exports = {
     "ui": {
         "port": 3001
     },
-    "files": "dist/bundle.js",
+    "files": ["dist/bundle.js"],
     "watchEvents": [
         "change"
     ],
-    "watch": true,
+    "watch": false,
     "ignore": [],
     "single": false,
     "watchOptions": {

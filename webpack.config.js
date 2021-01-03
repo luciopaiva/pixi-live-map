@@ -5,6 +5,7 @@ module.exports = {
     entry: "./index.ts",
     devtool: "source-map",
     mode: "development",
+    watch: true,
     externals: {
         "pixi.js": "PIXI"
     },

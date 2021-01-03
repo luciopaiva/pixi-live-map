@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "browser-sync start --config bs-config.js",
+    "serve": "browser-sync start --config bs-config.js",
+    "ts": "rm -fr ./dist && tsc -w",
+    "rollup": "rollup -c --watch",
+    "webpack": "rm -fr ./dist && webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
+    "rollup": "^2.35.1",
+    "rollup-plugin-terser": "^7.0.2",
     "ts-loader": "^8.0.13",
     "typescript": "^4.1.3",
     "webpack": "^5.11.1",
