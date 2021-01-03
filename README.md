@@ -3,6 +3,8 @@
 
 Proof-of-concept to show how to load a live map view with thousands of moving elements.
 
+It expands on [this other project](https://github.com/luciopaiva/web-graphics-comparison) I did to benchmark different solutions.
+
 ## Install
 
 Either install `nvm` or manage your Node.js version (which ideally should match the one in `.nvmrc`, but other versions can work as well too since Node.js is only used to run the development tools). 
